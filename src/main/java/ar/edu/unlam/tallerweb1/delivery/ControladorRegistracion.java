@@ -15,7 +15,7 @@ public class ControladorRegistracion {
         this.servicioRegistracion = servicioRegistracion;
     }
 
-    @RequestMapping(path = "/registrarme", method = RequestMethod.GET)
+    @RequestMapping(path = "/registrar-usuario", method = RequestMethod.GET)
     public ModelAndView registrarme() {
         ModelMap model = new ModelMap();
         model.put("datosRegistracion", new DatosRegistracion());
